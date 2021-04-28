@@ -1,0 +1,396 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+	color: rgb(95, 162, 235) !important;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.nav--bg__appear {
+	background-color: #000;
+	color: #fff;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+}
+
+#hero img {
+    height: 100vh;
+}
+
+#hero .carousel-inner .carousel-item img {
+    opacity: 0.9;
+}
+
+#fit4life--carousel .carousel-inner .carousel-caption {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-style: normal;
+    font-weight: bold;
+    z-index: 10;
+}
+
+#fit4life--carousel .carousel-inner .carousel-caption .overlay--txt__header{
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+}
+
+#fit4life--carousel .carousel-inner .carousel-caption .overlay--txt {
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+#fit4life--carousel .carousel-inner .carousel-caption .btn {
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+main {
+    color: #505050;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 10rem; */
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.underline {
+    text-decoration: underline #ff0;
+    text-underline-offset: 20%;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+
+.card-deck,
+.card-group,
+.gallery-imgs {
+    margin: 5rem 0;
+}
+
+.bg--gray {
+    background-color: rgba(196, 196, 196, 0.08);
+}
+
+#testimonial--carousel img {
+    height: 20rem;
+    width: 20rem;
+}
+
+
+/* MEMBERSHIP */
+#membership {
+	background: url("../images/index-gallery-4.jpg") round;
+    /* background: url("../images/membership-bg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+#membership .wrapper {
+    transform: translate(10%, 70%);
+}
+
+#membership .wrapper .btn {
+    width: 10rem;
+    height: 3.5rem;
+}
+
+
+
+
+/* About Us */
+.about--text {
+	width: 100vw;
+	height: 20vh;
+	position: absoluite;
+}
+
+.overlay {
+	position: relative;
+	left: 55%;
+	top: -45%;
+	margin-bottom: 50rem;
+}
+
+.overlay .card {
+	width: 22rem;
+	height: auto;
+	box-shadow: 0px 0px 0px 0px 
+	rgba(0,0,0,0.2), 0 6px 20px 
+  	0 rgba(0,0,0,0.19);
+	  margin-bottom: 3rem;
+}
+
+.list-group-flush li {
+	border: none;
+}
+
+.about--text .overlay ul li span button:hover {
+	background-color: #ffc107;
+}
+/* About Us */
+
+/* Contact */
+#contact-us {
+	width: 100%;
+	height: 100vh;
+}
+
+.list {
+	list-style: none;
+	text-decoration: none;
+}
+
+.list--links:hover {
+	color: #0069d9 !important;
+	text-decoration: none;
+}
+
+#contact-us iframe {
+	width: 100%;
+	height: 70vh;
+}
+
+/* Contact */
+
+
+
+/* footer */
+.footer-nav {
+    background-color: #000;
+  }
+  
+  .footer-nav--sub {
+    border-top: 0.1rem solid #fff;
+    height: 50%;
+  }
+  
+  .footer-nav__content1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0 1rem 0;
+  }
+  
+  .footer-nav__content2 {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .footer-nav__list {
+    list-style: none;
+  }
+  
+  .footer-nav__header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  
+  .footer-nav__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.02em;
+    color: white;
+    opacity: 0.8;
+  }
+  
+  a.footer-nav__link {
+    text-decoration: none;
+    color: white;
+    transition: color 700ms ease-in-out;
+  }
+  
+  a.footer-nav__link:hover {
+    color: #0069d9;
+  }
+  
+  .footer-nav__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  
+  
+
+  /* @media screen and (max-width: 600px) {
+    
+  } */
+
+
+@media screen and (max-width: 428px) {
+	header {
+		height: 40vh;
+		width: 100%;
+	}
+
+	.trainers--header h1 {
+		font-size: 2rem;
+		margin: 5rem 0 2rem 0;
+	}
+
+	.trainers--header h4 {
+		font-size: 1.1rem;
+		margin: 0;
+	}
+
+  #hero,
+  #hero img {
+    height: 40vh;
+  }
+
+  #fit4life--carousel .carousel-inner .carousel-caption {
+	position: absolute;
+    left: 10%;
+    top: 50%;
+    font-style: normal;
+    font-weight: bold;
+    /* z-index: 10; */
+  }
+  
+  #fit4life--carousel .carousel-inner .carousel-caption .overlay--txt__header {
+	  font-size: .8rem;
+	  line-height: 1.5rem;
+  }
+  
+  #fit4life--carousel .carousel-inner .carousel-caption .overlay--txt {
+	  font-size: .5rem;
+	  line-height: 1rem;
+  }
+  
+  #fit4life--carousel .carousel-inner .carousel-caption .btn {
+	  font-size: .5rem;
+	  line-height: 1rem;
+	  width: 5rem;
+	  height: 2rem;
+  }
+
+  .about--text h4 {
+	  font-size: 1.2rem;
+  }
+  .overlay {
+	  display: none;
+ }
+
+  .footer-nav__header {
+	  font-size: 1rem;
+  }
+
+  #membership .wrapper {
+	transform: translate(0, 0);
+}
+
+  #membership .wrapper h1 {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+  }
+
+  #membership .wrapper h5 {
+	font-size: .8rem;
+	line-height: 1rem;
+}
+
+#membership .wrapper .btn {
+	font-size: .8rem;
+	line-height: 1rem;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+    #testimonial--carousel img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+	#membership {
+		background: url("../images/index-gallery-4.jpg") round;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100vw;
+		height: 100%;
+		margin-bottom: 0;
+	}
+
+    #membership .wrapper {
+        transform: translate(0, 0);
+    }
+
+    #membership .wrapper .btn {
+		width: 7rem;
+		height: 2.5rem;
+    }
+
+    .footer-nav__content1 {
+        display: block;
+      }
+    
+      .footer-nav__content2 {
+        width: 100%;
+      }
+
+      .footer-nav__item {
+        font-size: 1rem;
+        line-height: 3rem;
+      }
+
+      .footer-nav__item {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+
+      .footer-nav__text {
+        font-size: .7rem;
+        line-height: 1rem;
+      }
+
+} 
